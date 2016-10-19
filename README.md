@@ -8,6 +8,8 @@ git clone https://github.com/AFelipeTrujillo/Basic.Server.With.ExpressJS.git
 cd https://github.com/AFelipeTrujillo/Basic.Server.With.ExpressJS.git
 npm insall
 npm start
+//or
+npm dev
 ```
 
 See you around !
