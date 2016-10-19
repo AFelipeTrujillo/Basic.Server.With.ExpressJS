@@ -4,6 +4,8 @@
   "description": "Basic ExpressJS server",
   "main": "server.js",
   "scripts": {
+    "start": "node server.js",
+    "dev" : "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
@@ -19,5 +21,15 @@
     "express": "^4.14.0",
     "morgan": "^1.7.0",
     "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-uglify": "^2.0.0",
+    "concurrently": "^3.1.0"
   }
 }
