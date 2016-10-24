@@ -23,7 +23,7 @@ gulp.task('styles',function(){
 });
 
 gulp.task('js',function(){
-	gulp.src('src/js/*.js')
+	gulp.src('src/js/**/*.js')
 	.pipe(concat('scripts.js'))
 	.pipe(uglify())
 	.pipe(gulp.dest('app/'));
